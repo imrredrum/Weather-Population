@@ -1,3 +1,6 @@
+'use client'
+
+import AppNavbar from '@/components/AppNavbar'
 import SideMenu from '@/components/SideMenu'
 import { Box, Stack } from '@mui/material'
 import { PropsWithChildren } from 'react'
@@ -5,7 +8,7 @@ import { PropsWithChildren } from 'react'
 const AppLayout: React.FC<PropsWithChildren> = ({ children }) => (
   <Box sx={{ display: 'flex' }}>
     <SideMenu />
-    {/* <AppNavbar /> */}
+    <AppNavbar />
     <Box
       component='main'
       sx={{
@@ -22,7 +25,6 @@ const AppLayout: React.FC<PropsWithChildren> = ({ children }) => (
           mt: { xs: 8, md: 0 },
         }}
       >
-        {/* <Header /> */}
         <Box sx={{ width: '100%', maxWidth: { sm: '100%', md: '1700px' } }}>
           {children}
         </Box>
