@@ -2,7 +2,7 @@
 
 import AppNavbar from '@/components/AppNavbar'
 import SideMenu from '@/components/SideMenu'
-import { Box, Stack } from '@mui/material'
+import { Box, Container, Toolbar } from '@mui/material'
 import { PropsWithChildren } from 'react'
 
 const AppLayout: React.FC<PropsWithChildren> = ({ children }) => (
@@ -16,19 +16,8 @@ const AppLayout: React.FC<PropsWithChildren> = ({ children }) => (
         overflow: 'auto',
       }}
     >
-      <Stack
-        spacing={2}
-        sx={{
-          alignItems: 'center',
-          mx: 3,
-          pb: 5,
-          mt: { xs: 8, md: 0 },
-        }}
-      >
-        <Box sx={{ width: '100%', maxWidth: { sm: '100%', md: '1700px' } }}>
-          {children}
-        </Box>
-      </Stack>
+      <Toolbar />
+      <Container sx={{ px: { md: 5 }, py: 5.25 }}>{children}</Container>
     </Box>
   </Box>
 )

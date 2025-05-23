@@ -6,6 +6,11 @@ const theme = createTheme({
   cssVariables: true,
   typography: {
     fontFamily: 'var(--font-roboto)',
+    h1: {
+      fontSize: '2.25rem',
+      fontWeight: 400,
+      lineHeight: '2.5625rem',
+    },
   },
   palette: {
     primary: {
@@ -18,6 +23,16 @@ const theme = createTheme({
       defaultProps: {
         disableElevation: true,
       },
+    },
+    MuiTypography: {
+      variants: [
+        {
+          props: { variant: 'h1', gutterBottom: true },
+          style: {
+            marginBottom: 40,
+          },
+        },
+      ],
     },
   },
 })
