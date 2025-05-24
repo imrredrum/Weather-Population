@@ -19,16 +19,16 @@ const ResponseSchema = z.object({
     humidity: z.number().int().min(0).max(100),
   }),
   dt: z.number(),
+  name: z.string(),
 })
 type TResponse = z.infer<typeof ResponseSchema>
 
-const ResolvedDataSchema = WeatherSchema.omit({
-  city: true,
-})
+const ResolvedDataSchema = WeatherSchema
 type TResolvedData = z.infer<typeof ResolvedDataSchema>
 
 const dataResolver = (data: TResponse) => {
   const resolvedData: TResolvedData = {
+    city: data.name,
     code: data.weather[0].id,
     title: data.weather[0].main,
     description: data.weather[0].description,

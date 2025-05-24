@@ -37,7 +37,7 @@ export default function Home() {
           setWeather(null)
           return
         }
-        setWeather({ ...data, city: params.city })
+        setWeather(data)
       },
       onError: error => {
         switch (error.response?.status) {
@@ -74,7 +74,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    if (!params.city || !params.country || !token) return undefined
+    if (!params.city || !token) return undefined
     trigger()
   }, [params, token, trigger])
 

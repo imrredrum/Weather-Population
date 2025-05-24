@@ -55,7 +55,6 @@ const SearchForm: React.FC<{
             size='small'
             variant='outlined'
             defaultValue={defaultValue?.country}
-            required
             error={error}
             sx={{ width: 132, flexGrow: 1 }}
           />
