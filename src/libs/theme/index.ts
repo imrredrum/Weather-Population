@@ -23,6 +23,22 @@ const theme = createTheme({
       defaultProps: {
         disableElevation: true,
       },
+      styleOverrides: {
+        root: {
+          textTransform: 'initial',
+        },
+      },
+    },
+    MuiTextField: {
+      defaultProps: {
+        slotProps: {
+          input: {
+            sx: {
+              background: '#fff',
+            },
+          },
+        },
+      },
     },
     MuiTypography: {
       variants: [

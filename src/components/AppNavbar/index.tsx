@@ -85,7 +85,6 @@ const AppNavbar: React.FC = () => {
               startIcon={<AccountCircleIcon />}
               endIcon={<KeyboardArrowDownRoundedIcon />}
               sx={{
-                textTransform: 'initial',
                 [`.${buttonClasses.startIcon}`]: { color: 'primary.main' },
               }}
             >

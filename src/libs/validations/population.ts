@@ -7,5 +7,4 @@ export const PopulationSchema = z.array(
     female: z.number().int().min(0),
   })
 )
-
 export type TPopulation = z.infer<typeof PopulationSchema>
