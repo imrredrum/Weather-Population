@@ -38,6 +38,7 @@ const AppLayout: React.FC<React.PropsWithChildren> = ({ children }) => (
       >
         <Toolbar />
         <Container
+          maxWidth={false}
           sx={{ px: { md: 5 }, py: 5.25, bgcolor: 'grey.50', flexGrow: 1 }}
         >
           {children}

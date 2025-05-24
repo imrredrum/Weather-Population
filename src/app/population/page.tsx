@@ -27,7 +27,7 @@ export default function PopulationPage() {
       <Typography variant='h1' gutterBottom>
         Population
       </Typography>
-      <Card variant='outlined' sx={{ borderRadius: 2 }}>
+      <Card variant='outlined' sx={{ borderRadius: 2, maxWidth: 'sm' }}>
         <CardHeader
           title={
             <Stack
