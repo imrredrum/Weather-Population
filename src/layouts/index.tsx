@@ -2,7 +2,6 @@
 
 import AppNavbar from '@/components/AppNavbar'
 import SideMenu from '@/components/SideMenu'
-import { TokenStoreProvider } from '@/providers/token'
 import { Box, Container, styled, Toolbar } from '@mui/material'
 import { MaterialDesignContent, SnackbarProvider } from 'notistack'
 
@@ -24,29 +23,27 @@ const AppLayout: React.FC<React.PropsWithChildren> = ({ children }) => (
       info: StyledMaterialDesignContent,
     }}
   >
-    <TokenStoreProvider>
-      <Box sx={{ display: 'flex' }}>
-        <SideMenu />
-        <AppNavbar />
-        <Box
-          component='main'
-          sx={{
-            flexGrow: 1,
-            overflow: 'auto',
-            minHeight: '100dvh',
-            display: 'flex',
-            flexDirection: 'column',
-          }}
+    <Box sx={{ display: 'flex' }}>
+      <SideMenu />
+      <AppNavbar />
+      <Box
+        component='main'
+        sx={{
+          flexGrow: 1,
+          overflow: 'auto',
+          minHeight: '100dvh',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
+        <Toolbar />
+        <Container
+          sx={{ px: { md: 5 }, py: 5.25, bgcolor: 'grey.50', flexGrow: 1 }}
         >
-          <Toolbar />
-          <Container
-            sx={{ px: { md: 5 }, py: 5.25, bgcolor: 'grey.50', flexGrow: 1 }}
-          >
-            {children}
-          </Container>
-        </Box>
+          {children}
+        </Container>
       </Box>
-    </TokenStoreProvider>
+    </Box>
   </SnackbarProvider>
 )
 

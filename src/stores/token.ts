@@ -1,4 +1,4 @@
-import { createStore } from 'zustand'
+import { createStore } from 'zustand/vanilla'
 
 export type TToken = string | null
 
@@ -13,9 +13,14 @@ export type TokenActions = {
 
 export type TokenStore = TokenState & TokenActions
 
-export const initTokenStore = (): TokenState => ({
-  token: null,
-})
+export const initTokenStore = (): TokenState => {
+  return {
+    token:
+      typeof window !== 'undefined'
+        ? localStorage.getItem('weatherApiKey')
+        : null,
+  }
+}
 
 export const defaultInitState: TokenState = {
   token: null,
@@ -24,7 +29,17 @@ export const defaultInitState: TokenState = {
 export const createTokenStore = (initState: TokenState = defaultInitState) => {
   return createStore<TokenStore>()(set => ({
     ...initState,
-    update: newValue => set({ token: newValue }),
-    clear: () => set(initState),
+    update: newValue => {
+      if (newValue === null) {
+        localStorage.removeItem('weatherApiKey')
+      } else {
+        localStorage.setItem('weatherApiKey', newValue)
+      }
+      return set({ token: newValue })
+    },
+    clear: () => {
+      localStorage.removeItem('weatherApiKey')
+      return set(initState)
+    },
   }))
 }

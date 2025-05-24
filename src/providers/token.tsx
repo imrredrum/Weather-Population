@@ -5,7 +5,7 @@ import {
   initTokenStore,
   type TokenStore,
 } from '@/stores/token'
-import { createContext, useContext, useRef } from 'react'
+import { createContext, useContext, useEffect, useRef } from 'react'
 import { useStore } from 'zustand'
 
 export type TokenStoreApi = ReturnType<typeof createTokenStore>
@@ -15,11 +15,15 @@ export const TokenStoreContext = createContext<TokenStoreApi | null>(null)
 export const TokenStoreProvider: React.FC<React.PropsWithChildren> = ({
   children,
 }) => {
-  const storeRef = useRef<TokenStoreApi>(null)
+  const storeRef = useRef<TokenStoreApi | null>(null)
 
-  if (!storeRef.current) {
-    storeRef.current = createTokenStore(initTokenStore())
+  if (storeRef.current === null) {
+    storeRef.current = createTokenStore()
   }
+
+  useEffect(() => {
+    storeRef.current?.setState(initTokenStore())
+  }, [])
 
   return (
     <TokenStoreContext.Provider value={storeRef.current}>
