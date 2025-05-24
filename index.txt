@@ -1,28 +1,29 @@
 1:"$Sreact.fragment"
-2:I[94116,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","912","static/chunks/912-3899b5f52ac189f7.js","177","static/chunks/app/layout-ce2213a127783f27.js"],"default"]
-3:I[38309,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","912","static/chunks/912-3899b5f52ac189f7.js","177","static/chunks/app/layout-ce2213a127783f27.js"],"default"]
-4:I[80636,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","912","static/chunks/912-3899b5f52ac189f7.js","177","static/chunks/app/layout-ce2213a127783f27.js"],"default"]
-5:I[22548,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","912","static/chunks/912-3899b5f52ac189f7.js","177","static/chunks/app/layout-ce2213a127783f27.js"],"default"]
-6:I[21464,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","912","static/chunks/912-3899b5f52ac189f7.js","177","static/chunks/app/layout-ce2213a127783f27.js"],"default"]
-7:I[87555,[],""]
-8:I[31295,[],""]
-9:I[90894,[],"ClientPageRoot"]
-a:I[80314,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","78","static/chunks/78-6990e5d8f1101261.js","974","static/chunks/app/page-0b6daddee859e2fc.js"],"default"]
-d:I[59665,[],"MetadataBoundary"]
-f:I[59665,[],"OutletBoundary"]
-12:I[74911,[],"AsyncMetadataOutlet"]
-14:I[59665,[],"ViewportBoundary"]
-16:I[26614,[],""]
+2:I[94116,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","912","static/chunks/912-3899b5f52ac189f7.js","177","static/chunks/app/layout-a090e699ffd111b9.js"],"default"]
+3:I[38309,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","912","static/chunks/912-3899b5f52ac189f7.js","177","static/chunks/app/layout-a090e699ffd111b9.js"],"default"]
+4:I[80636,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","912","static/chunks/912-3899b5f52ac189f7.js","177","static/chunks/app/layout-a090e699ffd111b9.js"],"default"]
+5:I[22548,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","912","static/chunks/912-3899b5f52ac189f7.js","177","static/chunks/app/layout-a090e699ffd111b9.js"],"default"]
+6:I[93720,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","912","static/chunks/912-3899b5f52ac189f7.js","177","static/chunks/app/layout-a090e699ffd111b9.js"],"TokenStoreProvider"]
+7:I[21464,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","912","static/chunks/912-3899b5f52ac189f7.js","177","static/chunks/app/layout-a090e699ffd111b9.js"],"default"]
+8:I[87555,[],""]
+9:I[31295,[],""]
+a:I[90894,[],"ClientPageRoot"]
+b:I[80314,["975","static/chunks/975-61538a2facc5262e.js","401","static/chunks/401-5b546b3e8876837c.js","78","static/chunks/78-6990e5d8f1101261.js","974","static/chunks/app/page-e71f590bbc4cbff8.js"],"default"]
+e:I[59665,[],"MetadataBoundary"]
+10:I[59665,[],"OutletBoundary"]
+13:I[74911,[],"AsyncMetadataOutlet"]
+15:I[59665,[],"ViewportBoundary"]
+17:I[26614,[],""]
 :HL["/Weather-Population/_next/static/media/47cbc4e2adbc5db9-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/Weather-Population/_next/static/css/f536dce9de9f249f.css","style"]
-0:{"P":null,"b":"OIzm-CANjwJEPepOtjXI6","p":"/Weather-Population","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Weather-Population/_next/static/css/f536dce9de9f249f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-Hant-TW","children":["$","body",null,{"className":"__variable_c91384","children":["$","$L2",null,{"options":{"key":"css"},"children":["$","$L3",null,{"theme":"$4","children":[["$","$L5",null,{"enableColorScheme":true}],["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L9",null,{"Component":"$a","searchParams":{},"params":{},"promises":["$@b","$@c"]}],["$","$Ld",null,{"children":"$Le"}],null,["$","$Lf",null,{"children":["$L10","$L11",["$","$L12",null,{"promise":"$@13"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","YFVkXiIZxm6d8Nf9SfSju",{"children":[["$","$L14",null,{"children":"$L15"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$16","$undefined"],"s":false,"S":true}
-17:"$Sreact.suspense"
-18:I[74911,[],"AsyncMetadata"]
-b:{}
+0:{"P":null,"b":"3HtJ_Poh-Idr9wHq9eWg7","p":"/Weather-Population","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Weather-Population/_next/static/css/f536dce9de9f249f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-Hant-TW","children":["$","body",null,{"className":"__variable_c91384","children":["$","$L2",null,{"options":{"key":"css"},"children":["$","$L3",null,{"theme":"$4","children":[["$","$L5",null,{"enableColorScheme":true}],["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$La",null,{"Component":"$b","searchParams":{},"params":{},"promises":["$@c","$@d"]}],["$","$Le",null,{"children":"$Lf"}],null,["$","$L10",null,{"children":["$L11","$L12",["$","$L13",null,{"promise":"$@14"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","BAzLDvab3RNP8e992t3uq",{"children":[["$","$L15",null,{"children":"$L16"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$17","$undefined"],"s":false,"S":true}
+18:"$Sreact.suspense"
+19:I[74911,[],"AsyncMetadata"]
 c:{}
-e:["$","$17",null,{"fallback":null,"children":["$","$L18",null,{"promise":"$@19"}]}]
+d:{}
+f:["$","$18",null,{"fallback":null,"children":["$","$L19",null,{"promise":"$@1a"}]}]
+12:null
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 11:null
-15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-10:null
-19:{"metadata":[["$","title","0",{"children":"Weather & Population App"}],["$","link","1",{"rel":"icon","href":"/Weather-Population/icon.png?2f01bd49a2d1687e","type":"image/png","sizes":"192x192"}]],"error":null,"digest":"$undefined"}
-13:{"metadata":"$19:metadata","error":null,"digest":"$undefined"}
+1a:{"metadata":[["$","title","0",{"children":"Weather & Population App"}],["$","link","1",{"rel":"icon","href":"/Weather-Population/icon.png?2f01bd49a2d1687e","type":"image/png","sizes":"192x192"}]],"error":null,"digest":"$undefined"}
+14:{"metadata":"$1a:metadata","error":null,"digest":"$undefined"}
